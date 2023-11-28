@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T12:23:25.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="Y9JkJ8RoS7vA9wBFhg8r" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T18:29:22.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="SUUKSuQ8BFOLhkYbQno9" version="22.1.4" type="github">
   <diagram name="Page-1" id="88say22HIAeJnyaCDxLZ">
     <mxGraphModel dx="961" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -238,8 +238,426 @@
         <mxCell id="RWOpoAa0g8dToT_tsujj-77" value="Csapattagok: Hebők Máté, Détár Előd, Horváth Ferenc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="475" y="4410" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RWOpoAa0g8dToT_tsujj-78" value="Könyvtár modul" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="4440" width="120" height="60" as="geometry" />
+        <mxCell id="RWOpoAa0g8dToT_tsujj-78" value="Könyvtár modulok" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-79" value="Szerkesztés modul" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-80" target="RWOpoAa0g8dToT_tsujj-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-80" target="RWOpoAa0g8dToT_tsujj-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-80" target="RWOpoAa0g8dToT_tsujj-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-80" value="START&lt;br&gt;(rákattint a felhasználó a szerkesztés gombra)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-81" target="RWOpoAa0g8dToT_tsujj-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-81" value="Kiadás" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-83" target="RWOpoAa0g8dToT_tsujj-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-83" value="Visszavétel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="4790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-85" target="RWOpoAa0g8dToT_tsujj-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-85" value="Törlés" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="4790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379.8333333333335" y="4960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-88" target="RWOpoAa0g8dToT_tsujj-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-99" value="IGEN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RWOpoAa0g8dToT_tsujj-98">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="4680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="4920" />
+              <mxPoint x="460" y="4680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-114" value="NEM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RWOpoAa0g8dToT_tsujj-113">
+          <mxGeometry x="-0.938" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-88" value="Biztos törli?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="4880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-97" target="RWOpoAa0g8dToT_tsujj-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-97" value="ADATBÁZIS MÓDOSÍTÁS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="4990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-103" target="RWOpoAa0g8dToT_tsujj-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-103" value="ADATBÁZIS MÓDOSÍTÁS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-104" target="RWOpoAa0g8dToT_tsujj-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-104" value="ADATBÁZIS MÓDOSÍTÁS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="180" y="4880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-107" value="END" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="115" y="5000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-115" value="Keresés modul" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="4520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-116" target="RWOpoAa0g8dToT_tsujj-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-116" value="START (A felhasználó egy még helyileg meg nem határozott keresőmezőre kattint)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="4600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-117">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-117" value="ADATBÁZIS LEKÉRDEZÉS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="520" y="4700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RWOpoAa0g8dToT_tsujj-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="4850" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-121" value="END" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="4880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-123" value="A program megjeleníti a kritériumnak megfelelő könyveket" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="520" y="4790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-124" value="Hozzáadás modul" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="5000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-126" target="RWOpoAa0g8dToT_tsujj-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-126" value="START (A felhasználó rákattint egy helyileg meg nem határozott &quot;+&quot; gombra)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="5080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-127" target="RWOpoAa0g8dToT_tsujj-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-127" value="Kötelező adatok megadása" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="5170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="5150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="567" y="5300" />
+              <mxPoint x="567" y="5150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-148" value="NEM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RWOpoAa0g8dToT_tsujj-147">
+          <mxGeometry x="-0.5167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-133" value="Menti a változtatásokat?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="5260" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-139" target="RWOpoAa0g8dToT_tsujj-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-139" value="ADATBÁZIS MÓDOSÍTÁS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="692.5" y="5340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-140" value="END" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="5430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.543;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-133" target="RWOpoAa0g8dToT_tsujj-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-145" value="IGEN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RWOpoAa0g8dToT_tsujj-144">
+          <mxGeometry x="-0.0679" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-149" value="Csapattagok: Hebők Máté, Détár Előd, Horváth Ferenc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="5510" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-150" value="Felhasználó modulok" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="5520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-151" value="Felhasználó szerkesztése" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="5610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-152" value="Felhasználók keresése modul" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="5610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-154" target="RWOpoAa0g8dToT_tsujj-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-154" value="START (A felhasználó egy még helyileg meg nem határozott keresőmezőre kattint)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="605" y="5690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-156">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="5880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-156" value="ADATBÁZIS LEKÉRDEZÉS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="605" y="5790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RWOpoAa0g8dToT_tsujj-158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="5940" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-158" value="END" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="605" y="5970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-159" value="A program megjeleníti a kritériumnak megfelelő felhasználókat" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="605" y="5880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-163" target="RWOpoAa0g8dToT_tsujj-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-163" value="START&lt;br&gt;(rákattint a felhasználó a szerkesztés gombra)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="15" y="5690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-169" target="RWOpoAa0g8dToT_tsujj-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-169" value="Törlés" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="5820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-175" target="RWOpoAa0g8dToT_tsujj-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-172" value="IGEN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RWOpoAa0g8dToT_tsujj-171">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-175">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="5780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="5980" />
+              <mxPoint x="10" y="5780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-186" value="NEM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RWOpoAa0g8dToT_tsujj-185">
+          <mxGeometry x="-0.8884" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-175" value="Biztos törli?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="5940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-177" target="RWOpoAa0g8dToT_tsujj-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-177" value="ADATBÁZIS MÓDOSÍTÁS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="6080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-182" value="END" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="6190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.466;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-163" target="RWOpoAa0g8dToT_tsujj-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-187">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250.0344827586207" y="5960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-187" value="Kiadott könyvek" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="5820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-191" target="RWOpoAa0g8dToT_tsujj-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-191" value="ADATBÁZIS LEKÉRDEZÉS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="5960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-192">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="6190.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-192" value="A program megjeleníti a felhasználónak kiadott könyveket" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="6050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-196" value="Felhasználó hozzáadása" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="6080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-197" target="RWOpoAa0g8dToT_tsujj-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-197" value="START (A felhasználó rákattint egy helyileg meg nem határozott &quot;+&quot; gombra)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="6160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-199" target="RWOpoAa0g8dToT_tsujj-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-199" value="Kötelező adatok megadása" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="498" y="6260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-202">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="558" y="6240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485" y="6390" />
+              <mxPoint x="485" y="6240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-201" value="NEM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RWOpoAa0g8dToT_tsujj-200">
+          <mxGeometry x="-0.5167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-202" target="RWOpoAa0g8dToT_tsujj-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-210" value="IGEN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RWOpoAa0g8dToT_tsujj-209">
+          <mxGeometry x="-0.0704" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-202" value="Menti a változtatásokat?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="505.5" y="6350" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-203" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-204" target="RWOpoAa0g8dToT_tsujj-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-204" value="ADATBÁZIS MÓDOSÍTÁS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="500" y="6450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-205" value="END" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="6530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-211" value="Csapattagok: Hebők Máté, Détár Előd, Horváth Ferenc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="6610" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-212" value="Információ modul" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="6630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-213" target="RWOpoAa0g8dToT_tsujj-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-213" value="START (A felhasználó rákattint a menüpontra)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="6710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-214" target="RWOpoAa0g8dToT_tsujj-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-214" value="A PROGRAM HASZNÁLATI UTASÍTÁSA MEGJELENIK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="6790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-215" value="END" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="6870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-218" value="Csapattagok: Hebők Máté, Détár Előd, Horváth Ferenc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="7710" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-219" value="ADATBÁZIS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="7710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-221" value="Könyvek" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="7810" width="140" height="282" as="geometry">
+            <mxRectangle x="20" y="7810" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-242" value="+ bookID: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-222" value="+ cím: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-223" value="+ szerző: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-224" value="+ műfaj: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="104" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-225" value="+ terjedelem: small int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="126" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-227" value="+ ár: small int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="152" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-228" value="+ ISBN: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="178" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-229" value="+ kiadó: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="204" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-230" value="+ kiadás éve: date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="230" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-250" value="+ darabszám: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-221">
+          <mxGeometry y="256" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-232" value="Felhasználók" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="7810" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-233" value="+ név: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-232">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-234" value="+ email: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-232">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-235" value="+ születési dátum: date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-232">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-236" value="+ OM azonosító: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-232">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-237" value="Kiadott könyvek" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="7810" width="160" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-251" value="+ OM azonosító: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-237">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-241" value="+ bookID: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-237">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-238" value="+ kiadási dátum: date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-237">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-239" value="+ viaszavétel dátuma:&amp;nbsp; date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RWOpoAa0g8dToT_tsujj-237">
+          <mxGeometry y="104" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERzeroToMany;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-251" target="RWOpoAa0g8dToT_tsujj-236">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="7901" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWOpoAa0g8dToT_tsujj-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToOne;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="RWOpoAa0g8dToT_tsujj-242" target="RWOpoAa0g8dToT_tsujj-241">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
